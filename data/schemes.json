@@ -1,0 +1,308 @@
+[
+  {
+    "name": "PM-KISAN",
+    "level": "central",
+    "state": null,
+    "description": "Farmers ko saal mein 6000 rupaye milte hain, 3 installments mein",
+    "eligibility": {
+      "income_max": null,
+      "age_min": 18,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["farmer"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Zameen ke kagzat", "Bank passbook"],
+    "apply_link": "https://pmkisan.gov.in"
+  },
+  {
+    "name": "Ayushman Bharat - PMJAY",
+    "level": "central",
+    "state": null,
+    "description": "5 lakh tak ka free health insurance, hospital mein bharti hone par",
+    "eligibility": {
+      "income_max": 250000,
+      "age_min": null,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Ration card", "Income certificate"],
+    "apply_link": "https://pmjay.gov.in"
+  },
+  {
+    "name": "PM Ujjwala Yojana",
+    "level": "central",
+    "state": null,
+    "description": "BPL families ki women ko free LPG connection",
+    "eligibility": {
+      "income_max": 100000,
+      "age_min": 18,
+      "age_max": null,
+      "gender": "female",
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "BPL card", "Bank passbook"],
+    "apply_link": "https://pmuy.gov.in"
+  },
+  {
+    "name": "National Scholarship Portal - Post Matric Scholarship",
+    "level": "central",
+    "state": null,
+    "description": "SC/ST/OBC/minority students ke liye padhai ke liye financial help",
+    "eligibility": {
+      "income_max": 250000,
+      "age_min": null,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["student"],
+      "category_required": ["SC", "ST", "OBC", "EWS"],
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Caste certificate", "Income certificate", "Mark sheet"],
+    "apply_link": "https://scholarships.gov.in"
+  },
+  {
+    "name": "PM Employment Generation Programme (PMEGP)",
+    "level": "central",
+    "state": null,
+    "description": "Apna business shuru karne ke liye subsidy wala loan",
+    "eligibility": {
+      "income_max": null,
+      "age_min": 18,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["unemployed", "entrepreneur"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Education certificate", "Project report"],
+    "apply_link": "https://kviconline.gov.in/pmegp"
+  },
+  {
+    "name": "PM Awas Yojana (Gramin)",
+    "level": "central",
+    "state": null,
+    "description": "Gaon mein rehne wale bina pakke ghar wale logon ko ghar banane ke liye financial help",
+    "eligibility": {
+      "income_max": 300000,
+      "age_min": 18,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Income certificate", "Domicile certificate", "Bank passbook"],
+    "apply_link": "https://pmayg.nic.in"
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "level": "central",
+    "state": null,
+    "description": "10 saal se chhoti beti ke naam par savings account, achhi interest rate ke saath",
+    "eligibility": {
+      "income_max": null,
+      "age_min": null,
+      "age_max": 10,
+      "gender": "female",
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Birth certificate", "Aadhaar card", "Parent's ID proof"],
+    "apply_link": "https://www.india.gov.in/sukanya-samriddhi-yojana"
+  },
+  {
+    "name": "Indira Gandhi National Disability Pension Scheme",
+    "level": "central",
+    "state": null,
+    "description": "Severe disability (80%+) wale BPL logon ko monthly pension",
+    "eligibility": {
+      "income_max": 100000,
+      "age_min": 18,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": true
+    },
+    "documents": ["Disability certificate", "Aadhaar card", "BPL card", "Bank passbook"],
+    "apply_link": "https://nsap.nic.in"
+  },
+  {
+    "name": "UP Mukhyamantri Kanya Sumangala Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP mein beti ke birth se graduation tak financial help",
+    "eligibility": {
+      "income_max": 300000,
+      "age_min": null,
+      "age_max": 21,
+      "gender": "female",
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Birth certificate", "Aadhaar card", "Income certificate", "Domicile certificate"],
+    "apply_link": "https://mksy.up.gov.in"
+  },
+  {
+    "name": "UP Berojgari Bhatta",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP ke educated unemployed youth ko monthly allowance",
+    "eligibility": {
+      "income_max": 100000,
+      "age_min": 18,
+      "age_max": 40,
+      "gender": null,
+      "occupation": ["unemployed"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Education certificates", "Domicile certificate"],
+    "apply_link": "https://sewayojan.up.gov.in"
+  },
+  {
+    "name": "UP Free Boring Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP ke chhote farmers ke liye free borewell subsidy",
+    "eligibility": {
+      "income_max": null,
+      "age_min": null,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["farmer"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Land records", "Bank passbook"],
+    "apply_link": "https://upagriculture.com"
+  },
+  {
+    "name": "UP Mukhyamantri Bhagya Laxmi Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP mein BPL families mein beti ke birth par insurance benefit",
+    "eligibility": {
+      "income_max": null,
+      "age_min": null,
+      "age_max": null,
+      "gender": "female",
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Birth certificate", "BPL card", "Aadhaar card"],
+    "apply_link": "https://upbhagyalaxmi.upsdc.gov.in"
+  },
+  {
+    "name": "UP Vridha Pension Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP ke senior citizens (60+) ko monthly pension",
+    "eligibility": {
+      "income_max": 56460,
+      "age_min": 60,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Age proof", "Income certificate", "Domicile certificate"],
+    "apply_link": "https://sspy-up.gov.in"
+  },
+  {
+    "name": "UP Free Smartphone/Tablet Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "description": "UP ke college students ko free smartphone ya tablet",
+    "eligibility": {
+      "income_max": null,
+      "age_min": 18,
+      "age_max": 30,
+      "gender": null,
+      "occupation": ["student"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "College ID", "Domicile certificate"],
+    "apply_link": "https://digishakti.up.gov.in"
+  },
+  {
+    "name": "Mahatma Jyotiba Phule Jan Arogya Yojana",
+    "level": "state",
+    "state": "Maharashtra",
+    "description": "Maharashtra mein cashless health insurance 5 lakh tak",
+    "eligibility": {
+      "income_max": 100000,
+      "age_min": null,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Ration card", "Aadhaar card", "Domicile certificate"],
+    "apply_link": "https://www.jeevandayee.gov.in"
+  },
+  {
+    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "level": "state",
+    "state": "Maharashtra",
+    "description": "Maharashtra ki women ko monthly 1500 rupaye financial help",
+    "eligibility": {
+      "income_max": 250000,
+      "age_min": 21,
+      "age_max": 65,
+      "gender": "female",
+      "occupation": ["any"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Domicile certificate", "Income certificate"],
+    "apply_link": "https://ladkibahin.maharashtra.gov.in"
+  },
+  {
+    "name": "Maharashtra Rojgar Hami Yojana",
+    "level": "state",
+    "state": "Maharashtra",
+    "description": "Rural households ko 100 din ka guaranteed rozgar",
+    "eligibility": {
+      "income_max": null,
+      "age_min": 18,
+      "age_max": null,
+      "gender": null,
+      "occupation": ["unemployed", "laborer"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Job card", "Aadhaar card", "Domicile certificate"],
+    "apply_link": "https://egs.mahaonline.gov.in"
+  },
+  {
+    "name": "Maharashtra Free Laptop Yojana",
+    "level": "state",
+    "state": "Maharashtra",
+    "description": "Maharashtra ke meritorious students ko free laptop",
+    "eligibility": {
+      "income_max": 800000,
+      "age_min": 16,
+      "age_max": 25,
+      "gender": null,
+      "occupation": ["student"],
+      "category_required": null,
+      "disability_required": false
+    },
+    "documents": ["Aadhaar card", "Mark sheet", "Domicile certificate", "Income certificate"],
+    "apply_link": "https://mahadbt.maharashtra.gov.in"
+  }
+]
